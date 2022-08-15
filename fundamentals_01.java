@@ -122,3 +122,10 @@ public class Functional {
   //Testing functionablity.
   // Evaluating implementation.
   // Refining imlementation based on feedback.
+
+// summary
+  // language
+  // platform
+  // native executable binaries option
+  // community driven
+//go java!
