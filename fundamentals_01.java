@@ -64,7 +64,7 @@ public class Greeter {
   }
 }
 
-// oops java
+//Example 4 oops java
 
 package com.thehecklers;
 
@@ -90,5 +90,19 @@ public sealed class Rectangle permits Square {
   
   public int calculatePerimeter(){
     return (length * width)*2;
+  }
+}
+
+// Example 5 Functional java
+
+package com.thehecklers;
+import java.util.stream.Stream;
+
+public class Functional {
+  public void report(){
+    Stream.of("Alberto","Beatriz","chuck","Dalia","Edgar","Felicia","Gerald","Heldi")
+      .filter(name-> name.contains("a"))
+      .forEach(System.out::println);
+    
   }
 }
