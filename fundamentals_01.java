@@ -112,3 +112,13 @@ public class Functional {
 // Compiles to bytecode rather than native code
 // Just In Time (JIT) COMPLICATION: Native perfomance
 // Runs anywhere there is a JVM: platform independence.
+
+// community driven
+
+// open source (OpenJDK)
+//Java community process
+// Technology Compatibility Kit (TCK)
+// Early access/interim versions
+  //Testing functionablity.
+  // Evaluating implementation.
+  // Refining imlementation based on feedback.
