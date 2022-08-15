@@ -106,3 +106,9 @@ public class Functional {
     
   }
 }
+
+// Platform
+// Java Virtual Machine (JVM): most common scenario
+// Compiles to bytecode rather than native code
+// Just In Time (JIT) COMPLICATION: Native perfomance
+// Runs anywhere there is a JVM: platform independence.
