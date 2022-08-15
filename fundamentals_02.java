@@ -51,3 +51,10 @@
 // method 
 //... java
 // public void loan(){
+
+
+public class JavaCalculator {
+  public void loan(){
+    
+    Scanner sc = new Scanner(System.in);
+    System.out.print("           Loan: ")
