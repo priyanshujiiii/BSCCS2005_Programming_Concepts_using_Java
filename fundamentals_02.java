@@ -57,4 +57,36 @@ public class JavaCalculator {
   public void loan(){
     
     Scanner sc = new Scanner(System.in);
-    System.out.print("           Loan: ")
+    System.out.print("           Loan: ");
+    double loan = sc.nextDouble();
+    System.out.printf("          Interest: ");
+    double interest = sc.nextDouble();
+    System.out.printf("          Term: ");
+    double term = sc.nextDouble();
+    
+    double tempInterest = interest/12.0;
+    double result = loan *(tempInterest/1.0 - Math.pow((1.0 + tempInterest),-term)));
+    System.out.println("Monthly payment: " + String.format("%.2f",result));
+  }
+  public static void main(String[] args){
+    
+    new JavaCalculator().loan();
+    return;
+  }
+}
+
+/types
+new JavaCalculator().loan();
+// fields
+//... java
+// int i = 10;
+///vars
+//...
+
+//interfaces
+//...java
+//publicinterface Banker{
+//public void loan();
+//}..
+    
+      
