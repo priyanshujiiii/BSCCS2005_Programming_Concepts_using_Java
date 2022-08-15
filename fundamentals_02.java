@@ -23,3 +23,31 @@
 // declaration
 // non - nested
 // nested
+
+//1. Declartion https://github.com/omiprof/JCP_EC_Eduction_WG_Presentation/blob/master/JShellDemCode.txt
+//Declaration are either nested , or non-nested. If non-nested,there are some special rules.
+  //Access modifiers ('public',private',etc) are ignored.
+  // all declartion snippets are accessible to all other snippets.
+    //'final' is ignored 
+    //'static' is ignored
+    //'default' and synchronized are not allowed
+    //'abstract' is only alllowed on classes.
+// nested declarations follow normal java rules.
+
+// Kinds of declartions
+// 'import'
+// 'method'
+// 'class'
+// 'fiels'
+// 'interfaces'
+
+
+// 'import'
+//... java
+//import java.util.Scanner;
+//imports
+
+
+// method 
+//... java
+// public void loan(){
