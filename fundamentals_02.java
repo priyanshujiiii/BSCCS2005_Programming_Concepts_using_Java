@@ -88,5 +88,19 @@ new JavaCalculator().loan();
 //publicinterface Banker{
 //public void loan();
 //}..
+public class Java Calculators implements Banker {
+  public void loan(){
+    Scanner sc = new Scanner(System.in);
+    System.out.print("            Loan: ");
+    double loan = sc.nextDouble();
+    System.out.print("            Intersts: ");
+    double interest = sc.nextDouble();
+    System.out.print("            Term: ");
+    double term = sc.nextDouble();
+    
+    double tempInterst = interest/12.0;
+    double result = loan* (tempInterest/1.0-Math.pow(1.0+tempInterest), -term)));
+    
+    System.out.println("Monthly Payment:" + String.format("%.2F", result));
     
       
