@@ -101,6 +101,12 @@ public class Java Calculators implements Banker {
     double tempInterst = interest/12.0;
     double result = loan* (tempInterest/1.0-Math.pow(1.0+tempInterest), -term)));
     
-    System.out.println("Monthly Payment:" + String.format("%.2F", result));
+    System.out.println("Monthly Payment:" + String.format("%.2f", result));
+  }
+  public static void main(String[] args){
+    new JavaCalculated01().loan();
+    return;
+  }
+}
     
       
