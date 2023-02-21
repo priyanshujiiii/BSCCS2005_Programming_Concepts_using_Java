@@ -19,7 +19,7 @@ public class Fclass{
         Data dObj2 = dObj1;
         Data dObj3 = new Data(dObj1);
         dObj1.setD(20);
-        System.out.printin("dObj2.d : "+ dObj2.getD());
-        System.out.printin("dObj3.d : "+ dObj3.getD());
+        System.out.println("dObj2.d : "+ dObj2.getD());
+        System.out.println("dObj3.d : "+ dObj3.getD());
     }
 }
