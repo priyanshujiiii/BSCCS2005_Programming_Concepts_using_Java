@@ -1,6 +1,6 @@
 <h3>In Java, clone() is a method that creates a copy of an object. It is used to create a new object with the same values as an existing object. The clone() method is defined in the Object class and can be overridden by any class that implements it. The clone() method creates a new object of the same type as the original object and initializes it with the same values as the original object1.
 Here’s an example of how to use the clone() method in Java:</h3>
-``` Java
+```java
 public class Employee implements Cloneable {
    private String name;
    private double salary;
