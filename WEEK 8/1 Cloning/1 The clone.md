@@ -24,5 +24,6 @@ public class Employee implements Cloneable {
          e.printStackTrace();
       }
    }
-}```
+}
+```
 <h3>This code creates two objects of type Employee. The first object is created using the constructor, and the second object is created using the clone() method. The clone() method returns an object of type Object, so we need to cast it to an object of type Employee</h3>
